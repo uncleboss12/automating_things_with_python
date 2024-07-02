@@ -1,0 +1,13 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+logs/
+
+# Ignore configuration files
+config.ini
+
+
+# Ignore all csv files
+*.csv
+*.txt
