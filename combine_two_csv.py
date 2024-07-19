@@ -2,13 +2,13 @@ import pandas as pd
 
 
 # Read the first Excel sheet
-df1 = pd.read_csv('Prism_jennings_watershed_max_temperature_June2024.csv')
+df1 = pd.read_csv('Max_Temperature_data_big_watershed.csv')
 # Read the second Excel sheet
-df2 = pd.read_csv('Prism_jennings_watershed_min_temperature_June2024.csv')
+df2 = pd.read_csv('Min_Temperature_data_big_watershed.csv')
 
 # Select the desired columns from both dataframes
-columns1 = df1.columns[3:52]
-columns2 = df2.columns[3:52]
+columns1 = df1.columns[1:52]
+columns2 = df2.columns[1:52]
 
 # Iterate over the columns and create separate text files
 for i, (col1, col2) in enumerate(zip(columns1, columns2)):

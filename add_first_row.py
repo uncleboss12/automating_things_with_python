@@ -14,7 +14,7 @@ for filename in os.listdir(directory):
         with open(filepath, 'r') as file:
             lines = file.readlines()
 
-        # Add '20170101' to the first line
+        # Add '20180101' to the first line
         lines.insert(0, '20180101\n')
 
         # Write the new lines back to the file
