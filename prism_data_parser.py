@@ -101,10 +101,10 @@ if __name__ == '__main__':
     main_path = r'C:\Users\interactwel\Desktop\PRISM datasets\Precipitation'
     # main_path = '/Users/sammy/Library/CloudStorage/Box-Box/PRISM_data_Script/Precipitation'
     # system_boundary = '/Users/sammy/Library/CloudStorage/Box-Box/PRISM_data_Script/Prism_raster/Region_PRISMb.tif'
-    system_boundary = r'C:\Users\interactwel\Desktop\PRISM datasets\Prism_raster\NEW\small_raster_Final_June2024.tif'
+    system_boundary = r'C:\Users\interactwel\Desktop\PRISM datasets\excel_to_text_script_folder\unusual_raster_tiff_watershed.tif'
     begin_year = 2018
     end_year = 2022
-    csv_file_name = 'Prism_jennings_watershed_precipitation_June2024.csv'
+    csv_file_name = 'Prism_jennings_watershed_precipitation_switch.csv'
 
     pathunzip = main_path + '/temp'
     
