@@ -7,8 +7,8 @@ df1 = pd.read_csv('Max_Temperature_data_big_watershed.csv')
 df2 = pd.read_csv('Min_Temperature_data_big_watershed.csv')
 
 # Select the desired columns from both dataframes
-columns1 = df1.columns[1:52]
-columns2 = df2.columns[1:52]
+columns1 = df1.columns[1:51]
+columns2 = df2.columns[1:51]
 
 # Iterate over the columns and create separate text files
 for i, (col1, col2) in enumerate(zip(columns1, columns2)):
